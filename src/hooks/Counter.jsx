@@ -9,8 +9,10 @@ function Counter(props) {
 
   return (
     <div>
-      Counter: {count}
-      <button onClick={() => setCount(count + 1)}>+</button>
+      <div>
+        Counter: {count}
+        <button onClick={() => setCount(count + 1)}>+</button>
+      </div>
     </div>
   );
 }
